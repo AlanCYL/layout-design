@@ -1,0 +1,339 @@
+body{
+    overflow-x: hidden;
+}
+.intro .container{
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.intro{
+    background:url(images/floating_elements.png)  ;
+    height:80vh;
+}
+h1,h2,h3{
+    font-family:'Playfair Display', serif; 
+}
+h4,h5,h6,p,a,input,label,textarea,span,ul,li,button{
+    font-family:'Raleway', sans-serif; 
+}
+
+.intro h1{
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-size: 80px;
+    font-weight: 900;
+    /* line-height: 1.5; */
+}
+
+.intro a{
+    padding: 18px 35px;
+    font-size: 25px;
+    font-weight: 900;
+    margin-right: 45px;
+    border:3px solid #4BA87D;
+}
+
+.btn_g{
+    background: #4BA87D;
+    color: white;
+}
+
+.btn_g:hover{
+    background:white ;
+    color: #4BA87D;
+}
+
+.btn_w{
+    background: white;
+    color: #4BA87D;
+}
+
+.btn_w:hover{
+    background: #4BA87D;
+    color: white;
+}
+@media screen and (min-width:992px) {
+    .navbar{
+        margin: 0px 100px;
+    }
+}
+
+.navbar-nav{
+    font-weight: 800;
+}
+
+.nav-link{
+    font-size: 17px;
+    margin-right: 15px;
+    border-bottom: 3px solid #4BA87D;
+}
+.signup{
+    color: white;
+    background: #4BA87D;
+    display: block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: color .15s;
+    font-weight: 900;
+}
+
+/* .signup:hover{
+    background: white;
+    color: #4BA87D;
+
+} */
+
+.navbar-brand {
+    position: relative;
+}
+
+.navbar-brand img{
+    max-width: 110px;
+
+}
+
+.navbar-brand h4{
+    font-weight: 900;
+    position: absolute;
+    top: 15px;
+    left: 85px;
+
+}
+
+/* .title{
+    max-width: 960px;
+    position: relative;
+} */
+
+
+.slide{
+    width: 80%;
+    z-index: -99999;
+    top: 60%;
+    right: 0;
+    /* transform: translateY(-50%) translateX(-50%); */
+    transform: translateY(-50%);
+    /* object-fit: cover; */
+
+}
+.slide img{
+    width: 100%;
+    object-fit: cover;
+    z-index: -99999;
+
+}
+
+@media screen and (max-width:762px){
+    .slide{
+        width: 100%;
+    }
+    .intro h1{
+        margin-top: 0%;
+        margin-bottom: 0%;
+        font-size: 60px;
+        position: absolute;
+        top: -200px;
+        
+    }
+    .intro .title2{
+        /* width: 80%; */
+        position: absolute;
+        bottom: -300px;
+
+    }
+    .intro a{
+        margin-right: 30px;
+        /* margin: 0px; */
+        padding: 20px;
+    }
+    .intro .demo{
+        position: absolute;
+        /* right: -85px; */
+    }
+    .intro .btn{
+        font-size: 23px;
+        
+    }
+}
+
+/* ---------section main------------- */
+
+.first_main{
+    background: #F7F7F7;
+    ;
+    /* height: 70vh; */
+}
+.slash{
+    position: relative;
+}
+
+.slash img{
+    transform: translateY(-18%);
+    display: block;
+    position: absolute;
+    max-width: 100%;
+    /* max-height: 100%;  */
+    /* overflow: hidden; */
+
+}
+.video{
+    max-width: 960px;
+    max-height: 70vh;
+    color: #F7F7F7;
+    font-weight: 900;
+    z-index: 10000;
+}
+
+.video h1{
+    font-size: 60px;
+}
+
+.video img{
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.learn_now{
+    top: 70%;
+    font-weight: 900;
+    padding: 20px;
+}
+@media screen and (max-width:992px) {
+    .video h1{
+        font-size: 45px;
+    }
+    .learn_now{
+        padding: 15px;
+    }
+
+}
+
+@media screen and (max-width:762px){
+    .video h1{
+        font-size: 25px;
+    }
+    .learn_now{
+        padding: 8px;
+    }
+}
+
+/* ---------section second main------------- */
+
+
+.green_bg{
+    width: 100%;
+    max-height: 100vh;
+}
+.slash_w{
+    max-width: 100vw;
+    top: -30%;
+}
+.float{
+    width: 100%;
+    max-height: 90vh;
+}
+
+.card a{
+    color: #4BA87D;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.sec_article{
+    z-index: 99999;
+}
+
+@media screen and (max-width:762px){
+    .green_bg{
+        margin-top: 30%;
+        height: 70vh;
+    }
+    .slash_w{
+        max-width: 100vw;
+        top: -10%;
+    }
+
+}
+
+/* ---------section third main------------- */
+
+.third_main img{
+    width: 100%;
+}
+
+.third_main h4{
+    font-weight: 900;
+    font-size: 2.5rem;
+}
+
+.third_main p{
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.third_main .state{
+    color: #F7F7F7;
+}
+
+
+/* ---------section fourth main------------- */
+
+.join{
+    font-weight: 900;
+}
+
+.received{
+    color: #4BA87D;
+}
+.logo_b img{
+    max-width: 100%;
+    object-fit: contain;
+}
+
+
+/* ---------section fifth_main------------- */
+.banner{
+    background: #4BA87D;
+    height: 35vh;
+    line-height: 30vh;
+}
+
+.banner h1{
+    font-size: 42px;
+}
+
+
+.pick{
+    top: 83%;
+    font-weight: 900;
+    padding: 15px;
+}
+
+@media screen and (max-width:762px){
+    .banner h1{
+        margin-top: -5%;
+        width: 80%;
+    }
+}
+
+/* ---------section sixth_main------------- */
+.ninjaMail{
+    margin-left: -10px;
+    font-weight: 900;
+}
+
+.sixth_main h6{
+    font-weight: 700;
+}
+
+/* ---------footer------------- */
+.footer{
+    height: 10vh;
+}
+.footer p{
+    font-weight: 700;
+    font-size: 12px;
+}
